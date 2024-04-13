@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="183dp"
+        android:layout_height="246dp"
+        android:layout_marginBottom="372dp"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:text="Hit: \nThe player can choose to hit, which means they request an additional card from the dealer. The goal is to get a hand value as close to 21 as possible without exceeding it."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="202dp"
+        android:layout_height="85dp"
+        android:textColor="#000000"
+
+        android:layout_marginBottom="628dp"
+        android:gravity="center"
+        android:text="BlackJack Rules"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:textColor="#000000"
+
+        android:layout_width="183dp"
+        android:layout_height="246dp"
+        android:layout_marginBottom="100dp"
+        android:gravity="center_horizontal"
+        android:text="Player Busts: \nIf the total value of the player's hand exceeds 21 after taking a hit, the player busts. This results in an automatic loss for the player, regardless of the dealer's hand."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="183dp"
+        android:textColor="#000000"
+
+        android:layout_height="246dp"
+        android:layout_marginBottom="372dp"
+        android:gravity="center_horizontal"
+        android:text="Stand: \nThe player can choose to stand, which means they do not want any more cards. This indicates that the player is satisfied with their current hand and believes it is strong enough to compete with the dealer."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.929"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="183dp"
+        android:layout_height="246dp"
+        android:layout_marginBottom="100dp"
+        android:textColor="#000000"
+
+        android:gravity="center_horizontal"
+        android:text="Dealer Busts: \nIf the dealer's hand exceeds 21, the dealer busts. In this case, all remaining players who have not busted are considered winners, regardless of the specific values of their hands."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.929"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Go back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
